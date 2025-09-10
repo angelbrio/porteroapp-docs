@@ -1,90 +1,100 @@
 # 🧤 PorteroApp  
 
+[![Ver demo](https://img.shields.io/badge/🌐_Ver_Demo-Online-success)](https://porteroapp-aeddd.web.app)  
+[![LinkedIn](https://img.shields.io/badge/Conectar_en-LinkedIn-blue)](https://www.linkedin.com/in/angel-briones-munoz/)  
+
 ![React](https://img.shields.io/badge/Frontend-React-61dafb?logo=react&logoColor=61dafb&labelColor=20232a)  
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-orange?logo=firebase&logoColor=FFCA28&labelColor=20232a)  
 ![Status](https://img.shields.io/badge/Status-Online-success?style=flat&logo=google-chrome)  
+![License](https://img.shields.io/badge/License-MIT-green)  
 
-**PorteroApp** es una aplicación web para registrar acciones de un portero durante el partido, gestionar porteros y registrar eventos en tiempo real ⚽🔥.  
+**PorteroApp** es una aplicación web para registrar acciones de un portero durante un partido, gestionar porteros y registrar eventos en tiempo real ⚽🔥.  
 
 👉 **Demo online:** [porteroapp-aeddd.web.app](https://porteroapp-aeddd.web.app)  
 
 ---
 
-## 📸 Registro en la app
+## 📑 Contenidos
+- [📸 Capturas](#-capturas)
+- [🚀 Características principales](#-características-principales)
+- [🏗️ Arquitectura del proyecto](#-arquitectura-del-proyecto)
+- [🖥️ Cómo usar](#️-cómo-usar)
+- [📦 Instalación local](#-instalación-local)
+- [📌 Roadmap](#-roadmap)
+- [✨ Autor](#-autor)
 
-<img width="1701" height="1297" alt="image" src="https://github.com/user-attachments/assets/e54b0109-72f4-41cd-9fdc-09d554024cd2" />
+---
 
-## 📸 Creacion de portero
-<img width="1702" height="1300" alt="image" src="https://github.com/user-attachments/assets/84cd8864-fd4d-4caf-9cc6-0df41e235c2f" />
+## 📸 Capturas  
 
-## 📸 Creacion de partido
+### Registro en la app  
+<img src="https://github.com/user-attachments/assets/e54b0109-72f4-41cd-9fdc-09d554024cd2" width="600" />
 
-<img width="1703" height="1306" alt="image" src="https://github.com/user-attachments/assets/6e18c1ae-3602-4e9f-8b09-d61bce69c594" />
+### Creación de portero  
+<img src="https://github.com/user-attachments/assets/84cd8864-fd4d-4caf-9cc6-0df41e235c2f" width="600" />
 
-## 📸 Registro de acciones durnate el partido
-<img width="1684" height="2128" alt="image" src="https://github.com/user-attachments/assets/c0bc6c52-4b7b-4fbd-9cf0-bf258901f868" />
+### Creación de partido  
+<img src="https://github.com/user-attachments/assets/6e18c1ae-3602-4e9f-8b09-d61bce69c594" width="600" />
 
-<p align="center">
-  <img src="docs/demo1.png" width="400" alt="Demo 1">
-  <img src="docs/demo2.png" width="400" alt="Demo 2">
-</p>
+### Registro de acciones durante el partido  
+<img src="https://github.com/user-attachments/assets/c0bc6c52-4b7b-4fbd-9cf0-bf258901f868" width="600" />
 
 ---
 
 ## 🚀 Características principales
-- Registro e inicio de sesión con **Firebase Auth** 🔐.  
-- Gestión de **partidos, eventos y porteros** en tiempo real con **Firestore** 📊.  
-- Despliegue en la nube con **Firebase Hosting** ☁️.  
-- Interfaz responsive hecha con **React + Hooks** ⚛️.  
-- **Seguridad**: reglas en Firestore para proteger datos de los usuarios.  
+- Registro e inicio de sesión con **Firebase Auth** 🔐  
+- Gestión de **partidos, eventos y porteros** en tiempo real con **Firestore** 📊  
+- Despliegue en la nube con **Firebase Hosting** ☁️  
+- Interfaz responsive hecha con **React + Hooks** ⚛️  
+- **Seguridad**: reglas en Firestore para proteger datos de los usuarios 🔒  
 
 ---
 
 ## 🏗️ Arquitectura del proyecto
-```ascii
-         +-----------------+
-         |    React App    |
-         |  (PorteroApp)   |
-         +--------+--------+
-                  |
-                  v
-          [ Firebase SDK ]
-                  |
-    +-------------+-------------+
-    |  Auth   |  Firestore  |  Hosting  |
-    |  Users  |   Data RT   |   WebApp  |
-    +---------+-------------+-----------+
 
-🛠️ Tecnologías usadas
+```mermaid
+flowchart TD
+    A[React App] --> B[Firebase SDK]
+    B --> C[Auth 🔐]
+    B --> D[Firestore 📊]
+    B --> E[Hosting ☁️]
+Stack tecnológico:
 
-Frontend: React, JavaScript (ES6+), HTML5, CSS3.
+Frontend: React, JavaScript (ES6+), HTML5, CSS3
 
-Backend (BaaS): Firebase (Auth, Firestore, Hosting, Storage).
+Backend (BaaS): Firebase (Auth, Firestore, Hosting, Storage)
 
-Control de versiones: Git + GitHub.
+Control de versiones: Git + GitHub
 
-Despliegue: Firebase Hosting.
+Despliegue: Firebase Hosting
 
-🔒 Seguridad
+🖥️ Cómo usar
 
-Reglas de Firestore para restringir acceso según usuario.
+Accede a 👉 Demo online
 
-Verificación de email obligatoria.
+Regístrate con tu correo electrónico
 
-Control de cuentas aprobadas automatica antes de habilitar acceso.
+Crea un portero y empieza a registrar partidos y acciones en tiempo real 🎯
 
 📌 Roadmap
 
-Creacion de cuenta
+ Registro de usuarios
 
-Creacion de portero
+ Creación de porteros
 
-Creacion de partidos de la temporada
+ Registro de partidos
+
+ Estadísticas avanzadas de porteros
+
+ Panel de administración para aprobar cuentas
+
+ Notificaciones push
 
 ✨ Autor
 
 👤 Ángel Briones
-📎 LinkedIn https://www.linkedin.com/in/angel-briones-munoz/
- · 📧 briones.angel.munoz@gmail.com
+📎 LinkedIn
 
-<p align="center"> Hecho con ❤️, ⚛️ y ☁️ <br> <sub>Proyecto personal desplegado con Firebase Hosting.</sub> </p> `
+📧 briones.angel.munoz@gmail.com
+
+<p align="center"> Hecho con ❤️, ⚛️ y ☁️ <br> <sub>Proyecto personal desplegado con Firebase Hosting.</sub> </p> ```
