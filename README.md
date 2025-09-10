@@ -52,6 +52,14 @@
 
 ## 🏗️ Arquitectura del proyecto
 
+```mermaid
+flowchart TD
+   A[React App ⚛️] --> B[Firebase SDK]
+   B --> C[Auth 🔐]
+   B --> D[Firestore 📊]
+   B --> E[Hosting ☁️]
+
+
 
 
 ## 🚀 flowchart TD
