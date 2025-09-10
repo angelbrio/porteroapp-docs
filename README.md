@@ -63,14 +63,14 @@ flowchart TD
 - Accede a 👉 Demo online -
 - Regístrate con tu correo electrónico -
 - Crea un portero y empieza a registrar partidos y acciones en tiempo real 🎯
--  ## 📌 Roadmap 
+## 📌 Roadmap 
 -  Registro de usuarios -
 -  Creación de porteros -
 -  Registro de partidos
 -  Estadísticas avanzadas de porteros
 -  Panel de administración para aprobar cuentas
 -  Notificaciones push
-   # ✨ Autor
+  # ✨ Autor
    👤 Ángel Briones
    📎 LinkedIn
    📧 briones.angel.munoz@gmail.com
