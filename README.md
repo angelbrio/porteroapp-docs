@@ -54,47 +54,8 @@
 
 ```mermaid
 flowchart TD
-   A[React App ⚛️] --> B[Firebase SDK]
-   B --> C[Auth 🔐]
-   B --> D[Firestore 📊]
-   B --> E[Hosting ☁️]
-
-
-
-
-## 🚀 flowchart TD
    A[React App] --> B[Firebase SDK]
-    B --> C[Auth 🔐]
-    B --> D[Firestore 📊]
-    B --> E[Hosting ☁️]
-- Stack tecnológico: 
-Frontend: React, JavaScript (ES6+), HTML5, CSS3
+   B --> C[Auth]
+   B --> D[Firestore]
+   B --> E[Hosting]
 
-Backend (BaaS): Firebase (Auth, Firestore, Hosting, Storage)
-
-Control de versiones: Git + GitHub
-
-Despliegue: Firebase Hosting 
-
-## 🖥️ Cómo usar
-- Accede a 👉 Demo online  
-- Regístrate con tu correo electrónico  
-- Crea un portero y empieza a registrar partidos y acciones en tiempo real 🎯   
-
-## 📌 Roadmap
-
-- Registro de usuarios  
-- Creación de porteros  
-- Registro de partidos
-- Estadísticas avanzadas de porteros
-- anel de administración para aprobar cuentas
-- Notificaciones push
-
-## ✨ Autor
-
-👤 Ángel Briones
-📎 LinkedIn
-
-📧 briones.angel.munoz@gmail.com
-
-<p align="center"> Hecho con ❤️, ⚛️ y ☁️ <br> <sub>Proyecto personal desplegado con Firebase Hosting.</sub> </p> 
