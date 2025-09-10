@@ -52,49 +52,41 @@
 
 ## 🏗️ Arquitectura del proyecto
 
-```mermaid
-flowchart TD
-    A[React App] --> B[Firebase SDK]
+
+
+## 🚀 flowchart TD
+   A[React App] --> B[Firebase SDK]
     B --> C[Auth 🔐]
     B --> D[Firestore 📊]
     B --> E[Hosting ☁️]
-Stack tecnológico:
-
+- Stack tecnológico: 
 Frontend: React, JavaScript (ES6+), HTML5, CSS3
 
 Backend (BaaS): Firebase (Auth, Firestore, Hosting, Storage)
 
 Control de versiones: Git + GitHub
 
-Despliegue: Firebase Hosting
+Despliegue: Firebase Hosting 
 
-🖥️ Cómo usar
+## 🖥️ Cómo usar
+- Accede a 👉 Demo online  
+- Regístrate con tu correo electrónico  
+- Crea un portero y empieza a registrar partidos y acciones en tiempo real 🎯   
 
-Accede a 👉 Demo online
+## 📌 Roadmap
 
-Regístrate con tu correo electrónico
+- Registro de usuarios  
+- Creación de porteros  
+- Registro de partidos
+- Estadísticas avanzadas de porteros
+- anel de administración para aprobar cuentas
+- Notificaciones push
 
-Crea un portero y empieza a registrar partidos y acciones en tiempo real 🎯
-
-📌 Roadmap
-
- Registro de usuarios
-
- Creación de porteros
-
- Registro de partidos
-
- Estadísticas avanzadas de porteros
-
- Panel de administración para aprobar cuentas
-
- Notificaciones push
-
-✨ Autor
+## ✨ Autor
 
 👤 Ángel Briones
 📎 LinkedIn
 
 📧 briones.angel.munoz@gmail.com
 
-<p align="center"> Hecho con ❤️, ⚛️ y ☁️ <br> <sub>Proyecto personal desplegado con Firebase Hosting.</sub> </p> ```
+<p align="center"> Hecho con ❤️, ⚛️ y ☁️ <br> <sub>Proyecto personal desplegado con Firebase Hosting.</sub> </p> 
