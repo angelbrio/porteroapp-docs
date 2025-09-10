@@ -58,4 +58,20 @@ flowchart TD
    B --> C[Auth]
    B --> D[Firestore]
    B --> E[Hosting]
+```
+## 🖥️ Cómo usar 
+- Accede a 👉 Demo online -
+- Regístrate con tu correo electrónico -
+- Crea un portero y empieza a registrar partidos y acciones en tiempo real 🎯
+-  ## 📌 Roadmap 
+-  Registro de usuarios -
+-  Creación de porteros -
+-  Registro de partidos
+-  Estadísticas avanzadas de porteros
+-  Panel de administración para aprobar cuentas
+-  Notificaciones push
+   # ✨ Autor
+   👤 Ángel Briones
+   📎 LinkedIn
+   📧 briones.angel.munoz@gmail.com
 
